@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>City Entry</title>
     <link href="../Content/font-awesome.css" rel="stylesheet" />
     <link href="../froala_editor_1.2.7/css/froala_editor.css" rel="stylesheet" />
     <link href="../froala_editor_1.2.7/css/froala_style.css" rel="stylesheet" />
