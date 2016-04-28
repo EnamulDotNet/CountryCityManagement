@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9B2708A3-795D-42BD-B211-0197B2BDA553}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CityCountryInfoManagement</RootNamespace>
+    <AssemblyName>CityCountryInfoManagement</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS\halftone.png" />
+    <Content Include="CSS\style.css" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="froala_editor_1.2.7\package.json" />
+    <Content Include="Scripts\jquery-2.1.4.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\style.css" />
+    <Content Include="froala_editor_1.2.7\css\froala_content.css" />
+    <Content Include="froala_editor_1.2.7\css\froala_content.min.css" />
+    <Content Include="froala_editor_1.2.7\css\froala_editor.css" />
+    <Content Include="froala_editor_1.2.7\css\froala_editor.min.css" />
+    <Content Include="froala_editor_1.2.7\css\froala_style.css" />
+    <Content Include="froala_editor_1.2.7\css\froala_style.min.css" />
+    <Content Include="froala_editor_1.2.7\css\themes\dark.css" />
+    <Content Include="froala_editor_1.2.7\css\themes\dark.min.css" />
+    <Content Include="froala_editor_1.2.7\css\themes\gray.css" />
+    <Content Include="froala_editor_1.2.7\css\themes\gray.min.css" />
+    <Content Include="froala_editor_1.2.7\css\themes\red.css" />
+    <Content Include="froala_editor_1.2.7\css\themes\red.min.css" />
+    <Content Include="froala_editor_1.2.7\css\themes\royal.css" />
+    <Content Include="froala_editor_1.2.7\css\themes\royal.min.css" />
+    <Content Include="froala_editor_1.2.7\examples\always_blank.html" />
+    <Content Include="froala_editor_1.2.7\examples\always_visible.html" />
+    <Content Include="froala_editor_1.2.7\examples\basic.html" />
+    <Content Include="froala_editor_1.2.7\examples\block_tags.html" />
+    <Content Include="froala_editor_1.2.7\examples\characters_counter.html" />
+    <Content Include="froala_editor_1.2.7\examples\code_preview.html" />
+    <Content Include="froala_editor_1.2.7\examples\customize_button_icons.html" />
+    <Content Include="froala_editor_1.2.7\examples\custom_block_styles.html" />
+    <Content Include="froala_editor_1.2.7\examples\custom_buttons.html" />
+    <Content Include="froala_editor_1.2.7\examples\custom_dropdown.html" />
+    <Content Include="froala_editor_1.2.7\examples\custom_image_buttons.html" />
+    <Content Include="froala_editor_1.2.7\examples\default_tag.html" />
+    <Content Include="froala_editor_1.2.7\examples\direction_basic_mode.html" />
+    <Content Include="froala_editor_1.2.7\examples\direction_inline_mode.html" />
+    <Content Include="froala_editor_1.2.7\examples\disable_button.html" />
+    <Content Include="froala_editor_1.2.7\examples\empty.html" />
+    <Content Include="froala_editor_1.2.7\examples\enter_disabled.html" />
+    <Content Include="froala_editor_1.2.7\examples\events\blur.html" />
+    <Content Include="froala_editor_1.2.7\examples\events\blur_and_focus.html" />
+    <Content Include="froala_editor_1.2.7\examples\events\contentChanged.html" />
+    <Content Include="froala_editor_1.2.7\examples\events\focus.html" />
+    <Content Include="froala_editor_1.2.7\examples\events\focus_text.html" />
+    <Content Include="froala_editor_1.2.7\examples\events\getHTML.html" />
+    <Content Include="froala_editor_1.2.7\examples\events\imageResize.html" />
+    <Content Include="froala_editor_1.2.7\examples\events\onPaste.html" />
+    <Content Include="froala_editor_1.2.7\examples\events\removeImage.html" />
+    <Content Include="froala_editor_1.2.7\examples\file_upload.html" />
+    <Content Include="froala_editor_1.2.7\examples\focus_on_editor.html" />
+    <Content Include="froala_editor_1.2.7\examples\font_family.html" />
+    <Content Include="froala_editor_1.2.7\examples\fullscreen.html" />
+    <Content Include="froala_editor_1.2.7\examples\height.html" />
+    <Content Include="froala_editor_1.2.7\examples\icons.html" />
+    <Content Include="froala_editor_1.2.7\examples\iframe\content.html" />
+    <Content Include="froala_editor_1.2.7\examples\iframe\index.html" />
+    <Content Include="froala_editor_1.2.7\examples\image_buttons.html" />
+    <Content Include="froala_editor_1.2.7\examples\image_link_disabled.html" />
+    <Content Include="froala_editor_1.2.7\examples\image_upload_disabled.html" />
+    <Content Include="froala_editor_1.2.7\examples\init_destroy.html" />
+    <Content Include="froala_editor_1.2.7\examples\init_on_button.html" />
+    <Content Include="froala_editor_1.2.7\examples\init_on_click.html" />
+    <Content Include="froala_editor_1.2.7\examples\init_on_image.html" />
+    <Content Include="froala_editor_1.2.7\examples\init_on_image_with_link.html" />
+    <Content Include="froala_editor_1.2.7\examples\init_on_link.html" />
+    <Content Include="froala_editor_1.2.7\examples\init_on_link_unlink_button_disabled.html" />
+    <Content Include="froala_editor_1.2.7\examples\init_on_link_with_link_text.html" />
+    <Content Include="froala_editor_1.2.7\examples\init_without_image_and_link.html" />
+    <Content Include="froala_editor_1.2.7\examples\inline.html" />
+    <Content Include="froala_editor_1.2.7\examples\inline_styles.html" />
+    <Content Include="froala_editor_1.2.7\examples\inline_with_no_buttons.html" />
+    <Content Include="froala_editor_1.2.7\examples\language.html" />
+    <Content Include="froala_editor_1.2.7\examples\link_attributes.html" />
+    <Content Include="froala_editor_1.2.7\examples\link_classes.html" />
+    <Content Include="froala_editor_1.2.7\examples\link_text.html" />
+    <Content Include="froala_editor_1.2.7\examples\live_preview.html" />
+    <Content Include="froala_editor_1.2.7\examples\media_manager_disabled.html" />
+    <Content Include="froala_editor_1.2.7\examples\min_height.html" />
+    <Content Include="froala_editor_1.2.7\examples\paragraphy_disabled.html" />
+    <Content Include="froala_editor_1.2.7\examples\plain_paste.html" />
+    <Content Include="froala_editor_1.2.7\examples\predefined_link_list.html" />
+    <Content Include="froala_editor_1.2.7\examples\require_js\index.html" />
+    <Content Include="froala_editor_1.2.7\examples\require_js\js\app.js" />
+    <Content Include="froala_editor_1.2.7\examples\require_js\js\lib\require.js" />
+    <Content Include="froala_editor_1.2.7\examples\scrollable_container.html" />
+    <Content Include="froala_editor_1.2.7\examples\shortcuts_available.html" />
+    <Content Include="froala_editor_1.2.7\examples\simple_ampersand.html" />
+    <Content Include="froala_editor_1.2.7\examples\table.html" />
+    <Content Include="froala_editor_1.2.7\examples\tabSpaces_disabled.html" />
+    <Content Include="froala_editor_1.2.7\examples\textarea.html" />
+    <Content Include="froala_editor_1.2.7\examples\text_near_image.html" />
+    <Content Include="froala_editor_1.2.7\examples\themes\dark_theme.html" />
+    <Content Include="froala_editor_1.2.7\examples\themes\gray_theme.html" />
+    <Content Include="froala_editor_1.2.7\examples\themes\red_theme.html" />
+    <Content Include="froala_editor_1.2.7\examples\themes\royal_theme.html" />
+    <Content Include="froala_editor_1.2.7\examples\toolbar_customization.html" />
+    <Content Include="froala_editor_1.2.7\examples\toolbar_fixed.html" />
+    <Content Include="froala_editor_1.2.7\examples\two_editors.html" />
+    <Content Include="froala_editor_1.2.7\examples\upload_pasted_images.html" />
+    <Content Include="froala_editor_1.2.7\img\photo1.jpg" />
+    <Content Include="froala_editor_1.2.7\js\froala_editor.min.js" />
+    <Content Include="froala_editor_1.2.7\js\froala_editor_ie8.min.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\ar.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\bs.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\cs.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\da.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\de.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\en_ca.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\en_gb.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\en_us.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\es.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\et.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\fa.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\fi.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\fr.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\he.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\hr.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\hu.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\id.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\it.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\ja.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\ko.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\me.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\nb.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\nl.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\pl.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\pt_br.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\pt_pt.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\ro.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\ru.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\sr.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\sv.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\th.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\tr.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\uk.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\zh_cn.js" />
+    <Content Include="froala_editor_1.2.7\js\langs\zh_tw.js" />
+    <Content Include="froala_editor_1.2.7\js\plugins\block_styles.min.js" />
+    <Content Include="froala_editor_1.2.7\js\plugins\char_counter.min.js" />
+    <Content Include="froala_editor_1.2.7\js\plugins\colors.min.js" />
+    <Content Include="froala_editor_1.2.7\js\plugins\entities.min.js" />
+    <Content Include="froala_editor_1.2.7\js\plugins\file_upload.min.js" />
+    <Content Include="froala_editor_1.2.7\js\plugins\font_family.min.js" />
+    <Content Include="froala_editor_1.2.7\js\plugins\font_size.min.js" />
+    <Content Include="froala_editor_1.2.7\js\plugins\fullscreen.min.js" />
+    <Content Include="froala_editor_1.2.7\js\plugins\inline_styles.min.js" />
+    <Content Include="froala_editor_1.2.7\js\plugins\lists.min.js" />
+    <Content Include="froala_editor_1.2.7\js\plugins\media_manager.min.js" />
+    <Content Include="froala_editor_1.2.7\js\plugins\tables.min.js" />
+    <Content Include="froala_editor_1.2.7\js\plugins\urls.min.js" />
+    <Content Include="froala_editor_1.2.7\js\plugins\video.min.js" />
+    <Content Include="froala_editor_1.2.7\README.txt" />
+    <None Include="Scripts\jquery-2.1.4.intellisense.js" />
+    <Content Include="Scripts\jquery-2.1.4.js" />
+    <Content Include="Scripts\jquery-2.1.4.min.js" />
+    <Content Include="UI\CityEntryUI.aspx" />
+    <Content Include="UI\CityViewUI.aspx" />
+    <Content Include="UI\CountryEntryUI.aspx" />
+    <Content Include="UI\CountryViewUI.aspx" />
+    <Content Include="UI\Main Menu.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\CityManager.cs" />
+    <Compile Include="BLL\CountryManager.cs" />
+    <Compile Include="Gateway\CityGateway.cs" />
+    <Compile Include="Gateway\CountryGateway.cs" />
+    <Compile Include="Models\City.cs" />
+    <Compile Include="Models\CityView.cs" />
+    <Compile Include="Models\Country.cs" />
+    <Compile Include="Models\CountryView.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\CityEntryUI.aspx.cs">
+      <DependentUpon>CityEntryUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\CityEntryUI.aspx.designer.cs">
+      <DependentUpon>CityEntryUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CityViewUI.aspx.cs">
+      <DependentUpon>CityViewUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\CityViewUI.aspx.designer.cs">
+      <DependentUpon>CityViewUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CountryEntryUI.aspx.cs">
+      <DependentUpon>CountryEntryUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\CountryEntryUI.aspx.designer.cs">
+      <DependentUpon>CountryEntryUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CountryViewUI.aspx.cs">
+      <DependentUpon>CountryViewUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\CountryViewUI.aspx.designer.cs">
+      <DependentUpon>CountryViewUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Main Menu.aspx.cs">
+      <DependentUpon>Main Menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Main Menu.aspx.designer.cs">
+      <DependentUpon>Main Menu.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1489</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1489/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

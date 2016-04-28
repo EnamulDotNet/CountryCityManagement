@@ -1,0 +1,155 @@
+﻿body {
+    background-color: #FDF3E7;
+    background-image: url("halftone.png");
+    background-repeat: repeat-x;
+}
+
+.headertext {
+    color: #5C5C50;
+    text-align: center;
+}
+.buttonwrapper {
+
+    margin-left: 80px;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 1250px;
+
+ 
+}
+.button1 {
+    text-decoration: none;
+    width: 258px;
+    height: 344px;
+ 
+    color: white;
+    line-height: 8.5em;
+    font-size: 38px;
+    text-align: center;
+    float: left;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+
+}
+.button1:hover {
+        z-index: 10;
+    display: block;
+    -moz-transform: scale(1.1, 1.05);
+    -ms-transform: scale(1.1, 1.05);
+    -o-transform: scale(1.1, 1.05);
+    -webkit-transform: scale(1.1, 1.05);
+    transform: scale(1.1, 1.05);
+    -moz-box-shadow: 0 0 20px #333;
+    -webkit-box-shadow: 0 0 20px #333;
+    box-shadow: 0 0 20px #333;
+}
+.color1 {
+      background-color: #16517F; 
+}
+.color2 {
+    background-color: #1A65A5;
+}
+.color3 {
+    background-color: #549CD5;
+}
+.color4 {
+    background-color: #2097D4;
+    line-height: 9.9em;
+    font-size: 33px;
+}
+.textareasize{
+    width: 300px;
+    height: 150px;
+    
+}
+.textboxstyle {
+    margin-top: 10px;
+     -moz-box-shadow: 0 0 20px #333;
+    -webkit-box-shadow: 0 0 20px #333;
+    box-shadow: 0px 1px 2px #777;
+}
+.whitetext {
+    color: whitesmoke;
+    font-size: 18px;
+    padding-top: 5px;
+    text-shadow: 0px 0px 3px rgba(150, 150, 150, 0.93);
+}
+.fieldsetstyle {
+    height: 450px;
+     background-color: #f79365;
+    color: gray;
+}
+.fieldsetstyle2 {
+    height: 100px;
+     background-color: #f79365;
+    color: gray;
+    width: 1050px;
+}
+.fieldsetstyle3 {
+    height: 325px;
+     background-color: #f79365;
+    color: gray;
+    width: 879px;
+}
+.button-form {
+     text-decoration: none;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 1.8em;
+    text-align: center;
+    box-shadow: 0px 1px 2px #777;
+ 
+    color: white;
+}
+.button-form:hover {
+    background-color: #5C5C50;
+}
+.form-button-color1 {
+    background-color: #16A086;
+}
+.form-button-color2 {
+    background-color: #2097D4;
+}
+.rowfont {
+    text-align: center;
+}
+.gridviewstyle {
+    height: 323px;
+margin-right: 0px;
+width: 905px;Height : 323px;
+    margin-right: 0px;
+     Width: 905px;
+}
+.gridviewstyle2 {
+      height: 323px;
+margin-right: 0px;
+width: 905px;Height : 323px;
+    margin-right: 0px;
+     Width: 1106px;
+
+    
+}
+.gridviewstyle3 {
+      height: 323px;
+margin-right: 0px;
+width: 905px;Height : 323px;
+    margin-right: 0px;
+     Width: 1076px;
+
+    
+}
+.gridviewstyle4 {
+      height: 323px;
+margin-right: 0px;
+width: 905px;Height : 323px;
+    margin-right: 0px;
+     Width: 1076px;
+
+    
+}
+.rowfont {
+    text-align: center;
+}

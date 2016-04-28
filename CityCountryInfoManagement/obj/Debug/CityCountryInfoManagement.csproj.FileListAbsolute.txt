@@ -1,0 +1,17 @@
+D:\BITM-Project-1\BITM-Project-1\CityCountryInfoManagement\CityCountryInfoManagement\bin\CityCountryInfoManagement.dll.config
+D:\BITM-Project-1\BITM-Project-1\CityCountryInfoManagement\CityCountryInfoManagement\bin\CityCountryInfoManagement.dll
+D:\BITM-Project-1\BITM-Project-1\CityCountryInfoManagement\CityCountryInfoManagement\bin\CityCountryInfoManagement.pdb
+D:\BITM-Project-1\BITM-Project-1\CityCountryInfoManagement\CityCountryInfoManagement\obj\Debug\CityCountryInfoManagement.csprojResolveAssemblyReference.cache
+D:\BITM-Project-1\BITM-Project-1\CityCountryInfoManagement\CityCountryInfoManagement\obj\Debug\CityCountryInfoManagement.dll
+D:\BITM-Project-1\BITM-Project-1\CityCountryInfoManagement\CityCountryInfoManagement\obj\Debug\CityCountryInfoManagement.pdb
+D:\Practice Code\DOTNET PRACTICE\BITM Project 1\CityCountryInfoManagement\CityCountryInfoManagement\bin\CityCountryInfoManagement.dll.config
+D:\Practice Code\DOTNET PRACTICE\BITM Project 1\CityCountryInfoManagement\CityCountryInfoManagement\bin\CityCountryInfoManagement.dll
+D:\Practice Code\DOTNET PRACTICE\BITM Project 1\CityCountryInfoManagement\CityCountryInfoManagement\bin\CityCountryInfoManagement.pdb
+D:\Practice Code\DOTNET PRACTICE\BITM Project 1\CityCountryInfoManagement\CityCountryInfoManagement\obj\Debug\CityCountryInfoManagement.dll
+D:\Practice Code\DOTNET PRACTICE\BITM Project 1\CityCountryInfoManagement\CityCountryInfoManagement\obj\Debug\CityCountryInfoManagement.pdb
+C:\Users\APON\Desktop\CityCountryInfoManagement\CityCountryInfoManagement\bin\CityCountryInfoManagement.dll.config
+C:\Users\APON\Desktop\CityCountryInfoManagement\CityCountryInfoManagement\bin\CityCountryInfoManagement.dll
+C:\Users\APON\Desktop\CityCountryInfoManagement\CityCountryInfoManagement\bin\CityCountryInfoManagement.pdb
+C:\Users\APON\Desktop\CityCountryInfoManagement\CityCountryInfoManagement\obj\Debug\CityCountryInfoManagement.csprojResolveAssemblyReference.cache
+C:\Users\APON\Desktop\CityCountryInfoManagement\CityCountryInfoManagement\obj\Debug\CityCountryInfoManagement.dll
+C:\Users\APON\Desktop\CityCountryInfoManagement\CityCountryInfoManagement\obj\Debug\CityCountryInfoManagement.pdb
