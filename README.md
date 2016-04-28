@@ -1,1 +1,1 @@
-# CountryCityManagementSystem
+Store city information according to country into database and retrieve information on request.
